@@ -1,0 +1,60 @@
+.users-table-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    font-size: 20px;
+  }
+
+  .table-box {
+    width: fit-content;
+  }
+  
+  .user-table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  .user-table {
+    border-collapse: collapse;
+    table-layout: fixed;
+    width: 100%;
+    max-width: 600px;
+  }
+
+  .user-table th,
+  .user-table td {
+    border: 1px solid black;
+    padding: 8px;
+    word-wrap: break-word;
+    white-space: normal;
+  }
+
+  .user-table select, input {
+    font-size: 14px;
+    padding: 4px 8px;
+  }
+
+  .actions-col {
+    width: 160px;
+    white-space: nowrap;
+  }
+
+  .actions-col-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .button-table {
+    padding-left: 6px;
+    padding-right: 6px;
+  }
+
+  .button-row {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+  }
+
